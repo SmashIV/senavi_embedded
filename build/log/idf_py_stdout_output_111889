@@ -1,0 +1,18 @@
+[1/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/senavi_project.c.obj
+[2/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/test/mq_135_proto.c.obj
+[3/10] Performing build step for 'bootloader'
+[1/1] cd /home/smashiv/Documentos/Proyectos/C/senavi_project/build/bootloader/esp-idf/esptool_py && /home/smashiv/.espressif/python_env/idf5.4_py3.14_env/bin/python /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/smashiv/Documentos/Proyectos/C/senavi_project/build/bootloader/bootloader.bin
+Bootloader binary size 0x6560 bytes. 0xaa0 bytes (9%) free.
+[4/10] Linking C static library esp-idf/main/libmain.a
+[5/10] No install step for 'bootloader'
+[6/10] Completed 'bootloader'
+[7/10] Generating ld/sections.ld
+[8/10] Linking CXX executable senavi_project.elf
+[9/10] Generating binary image from built executable
+esptool.py v4.12.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/smashiv/Documentos/Proyectos/C/senavi_project/build/senavi_project.bin
+[10/10] cd /home/smashiv/Documentos/Proyectos/C/senavi_project/build/esp-idf/esptool_py && /home/smashiv/.espressif/python_env/idf5.4_py3.14_env/bin/python /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/smashiv/Documentos/Proyectos/C/senavi_project/build/partition_table/partition-table.bin /home/smashiv/Documentos/Proyectos/C/senavi_project/build/senavi_project.bin
+senavi_project.bin binary size 0x2d130 bytes. Smallest app partition is 0x100000 bytes. 0xd2ed0 bytes (82%) free.

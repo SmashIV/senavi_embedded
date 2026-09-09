@@ -1,6 +1,6 @@
-void mq_135_proto_run(void);
+#include "sensors_collector.h"
 
 void app_main(void)
 {
-	mq_135_proto_run();
+	sensors_collector_start();
 }

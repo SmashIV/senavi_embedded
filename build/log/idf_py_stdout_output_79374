@@ -1,0 +1,177 @@
+[1/108] Generating project_elf_src_esp32.c
+[2/108] Generating /home/smashiv/Documentos/Proyectos/C/senavi_project/build/esp-idf/esp_system/ld/sections.ld.in linker script...
+[3/108] Generating /home/smashiv/Documentos/Proyectos/C/senavi_project/build/esp-idf/esp_system/ld/memory.ld linker script...
+[4/108] Linking C static library esp-idf/esp_https_ota/libesp_https_ota.a
+[5/108] Linking C static library esp-idf/esp_http_server/libesp_http_server.a
+[6/108] Linking C static library esp-idf/esp_http_client/libesp_http_client.a
+[7/108] Linking C static library esp-idf/tcp_transport/libtcp_transport.a
+[8/108] Linking C static library esp-idf/esp_gdbstub/libesp_gdbstub.a
+[9/108] Linking C static library esp-idf/esp_adc/libesp_adc.a
+[10/108] Generating ../../partition_table/partition-table.bin
+Partition table binary generated. Contents:
+*******************************************************************************
+# ESP-IDF Partition Table
+# Name, Type, SubType, Offset, Size, Flags
+nvs,data,nvs,0x9000,24K,
+phy_init,data,phy,0xf000,4K,
+factory,app,factory,0x10000,1M,
+*******************************************************************************
+[11/108] Linking C static library esp-idf/esp-tls/libesp-tls.a
+[12/108] Creating directories for 'bootloader'
+[13/108] No download step for 'bootloader'
+[14/108] Linking C static library esp-idf/http_parser/libhttp_parser.a
+[15/108] No update step for 'bootloader'
+[16/108] No patch step for 'bootloader'
+[17/108] Linking C static library esp-idf/esp_wifi/libesp_wifi.a
+[18/108] Linking C static library esp-idf/esp_coex/libesp_coex.a
+[19/108] Linking C static library esp-idf/wpa_supplicant/libwpa_supplicant.a
+[20/108] Linking C static library esp-idf/esp_netif/libesp_netif.a
+[21/108] Linking C static library esp-idf/lwip/liblwip.a
+[22/108] Linking C static library esp-idf/vfs/libvfs.a
+[23/108] Linking C static library esp-idf/esp_vfs_console/libesp_vfs_console.a
+[24/108] Linking C static library esp-idf/esp_phy/libesp_phy.a
+[25/108] Linking C static library esp-idf/driver/libdriver.a
+[26/108] Linking C static library esp-idf/esp_driver_ledc/libesp_driver_ledc.a
+[27/108] Linking C static library esp-idf/esp_driver_i2c/libesp_driver_i2c.a
+[28/108] Linking C static library esp-idf/esp_driver_sdm/libesp_driver_sdm.a
+[29/108] Linking C static library esp-idf/esp_driver_rmt/libesp_driver_rmt.a
+[30/108] Linking C static library esp-idf/esp_driver_dac/libesp_driver_dac.a
+[31/108] Linking C static library esp-idf/esp_driver_sdio/libesp_driver_sdio.a
+[32/108] Linking C static library esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
+[33/108] Linking C static library esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
+[34/108] Linking C static library esp-idf/sdmmc/libsdmmc.a
+[35/108] Linking C static library esp-idf/esp_driver_i2s/libesp_driver_i2s.a
+[36/108] Linking C static library esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
+[37/108] Linking C static library esp-idf/esp_driver_spi/libesp_driver_spi.a
+[38/108] Linking C static library esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
+[39/108] Linking C static library esp-idf/nvs_flash/libnvs_flash.a
+[40/108] Linking C static library esp-idf/esp_event/libesp_event.a
+[41/108] Linking C static library esp-idf/esp_driver_uart/libesp_driver_uart.a
+[42/108] Linking C static library esp-idf/esp_ringbuf/libesp_ringbuf.a
+[43/108] Linking C static library esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a
+[44/108] Linking C static library esp-idf/esp_timer/libesp_timer.a
+[45/108] Linking C static library esp-idf/cxx/libcxx.a
+[46/108] Linking C static library esp-idf/pthread/libpthread.a
+[47/108] Linking C static library esp-idf/newlib/libnewlib.a
+[48/108] Linking C static library esp-idf/freertos/libfreertos.a
+[49/108] Linking C static library esp-idf/esp_hw_support/libesp_hw_support.a
+[50/108] Linking C static library esp-idf/esp_security/libesp_security.a
+[51/108] Linking C static library esp-idf/soc/libsoc.a
+[52/108] Linking C static library esp-idf/heap/libheap.a
+[53/108] Linking C static library esp-idf/log/liblog.a
+[54/108] Linking C static library esp-idf/hal/libhal.a
+[55/108] Linking C static library esp-idf/esp_rom/libesp_rom.a
+[56/108] Linking C static library esp-idf/esp_common/libesp_common.a
+[57/108] Linking C static library esp-idf/esp_system/libesp_system.a
+[58/108] Linking C static library esp-idf/spi_flash/libspi_flash.a
+[59/108] Linking C static library esp-idf/esp_mm/libesp_mm.a
+[60/108] Linking C static library esp-idf/bootloader_support/libbootloader_support.a
+[61/108] Linking C static library esp-idf/efuse/libefuse.a
+[62/108] Linking C static library esp-idf/esp_partition/libesp_partition.a
+[63/108] Linking C static library esp-idf/app_update/libapp_update.a
+[64/108] Linking C static library esp-idf/esp_bootloader_format/libesp_bootloader_format.a
+[65/108] Linking C static library esp-idf/esp_app_format/libesp_app_format.a
+[66/108] Linking CXX static library esp-idf/mbedtls/mbedtls/library/libmbedtls.a
+[67/108] Linking CXX static library esp-idf/mbedtls/mbedtls/library/libmbedx509.a
+[68/108] Linking CXX static library esp-idf/mbedtls/mbedtls/library/libmbedcrypto.a
+[69/108] Linking CXX static library esp-idf/mbedtls/mbedtls/3rdparty/p256-m/libp256m.a
+[70/108] Linking CXX static library esp-idf/mbedtls/mbedtls/3rdparty/everest/libeverest.a
+[71/108] Generating ../../x509_crt_bundle.S
+[72/108] Building ASM object esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/__/__/x509_crt_bundle.S.obj
+[73/108] Linking C static library esp-idf/mbedtls/libmbedtls.a
+[74/108] Linking C static library esp-idf/esp_pm/libesp_pm.a
+[75/108] Linking C static library esp-idf/esp_driver_gpio/libesp_driver_gpio.a
+[76/108] Linking C static library esp-idf/xtensa/libxtensa.a
+[77/108] Linking C static library esp-idf/esp_https_server/libesp_https_server.a
+[78/108] Linking C static library esp-idf/esp_driver_cam/libesp_driver_cam.a
+[79/108] Linking C static library esp-idf/app_trace/libapp_trace.a
+[80/108] Linking C static library esp-idf/protobuf-c/libprotobuf-c.a
+[81/108] Linking C static library esp-idf/json/libjson.a
+[82/108] Linking C static library esp-idf/espcoredump/libespcoredump.a
+[83/108] Linking C static library esp-idf/esp_hid/libesp_hid.a
+[84/108] Linking C static library esp-idf/wear_levelling/libwear_levelling.a
+[85/108] Linking C static library esp-idf/nvs_sec_provider/libnvs_sec_provider.a
+[86/108] Linking C static library esp-idf/unity/libunity.a
+[87/108] Linking C static library esp-idf/perfmon/libperfmon.a
+[88/108] Linking C static library esp-idf/mqtt/libmqtt.a
+[89/108] Linking C static library esp-idf/rt/librt.a
+[90/108] Linking C static library esp-idf/esp_lcd/libesp_lcd.a
+[91/108] Linking C static library esp-idf/cmock/libcmock.a
+[92/108] Linking C static library esp-idf/main/libmain.a
+[93/108] Linking C static library esp-idf/esp_eth/libesp_eth.a
+[94/108] Linking C static library esp-idf/console/libconsole.a
+[95/108] Linking C static library esp-idf/spiffs/libspiffs.a
+[96/108] Linking C static library esp-idf/fatfs/libfatfs.a
+[97/108] Linking C static library esp-idf/protocomm/libprotocomm.a
+[98/108] Linking C static library esp-idf/esp_local_ctrl/libesp_local_ctrl.a
+[99/108] Linking C static library esp-idf/wifi_provisioning/libwifi_provisioning.a
+[100/108] Performing configure step for 'bootloader'
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/smashiv/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/smashiv/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/smashiv/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/smashiv/Documentos/Proyectos/C/senavi_project/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Adding linker script /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Bootloader project name: "bootloader" version: 1
+-- Adding linker script /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld
+-- Adding linker script /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_bootloader_format esp_common esp_hw_support esp_rom esp_security esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/bootloader /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/bootloader_support /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/efuse /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/esp_app_format /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/esp_bootloader_format /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/esp_common /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/esp_hw_support /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/esp_rom /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/esp_security /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/esp_system /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/esptool_py /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/freertos /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/hal /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/log /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/bootloader/subproject/main /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/bootloader/subproject/components/micro-ecc /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/newlib /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/partition_table /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/soc /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/spi_flash /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/xtensa
+-- Configuring done (2.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/smashiv/Documentos/Proyectos/C/senavi_project/build/bootloader
+[101/108] Performing build step for 'bootloader'
+[1/19] Generating project_elf_src_esp32.c
+[2/19] Linking C static library esp-idf/log/liblog.a
+[3/19] Building C object CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj
+[4/19] Linking C static library esp-idf/esp_rom/libesp_rom.a
+[5/19] Linking C static library esp-idf/esp_common/libesp_common.a
+[6/19] Linking C static library esp-idf/esp_hw_support/libesp_hw_support.a
+[7/19] Linking C static library esp-idf/esp_system/libesp_system.a
+[8/19] Linking C static library esp-idf/efuse/libefuse.a
+[9/19] Linking C static library esp-idf/bootloader_support/libbootloader_support.a
+[10/19] Linking C static library esp-idf/esp_bootloader_format/libesp_bootloader_format.a
+[11/19] Linking C static library esp-idf/spi_flash/libspi_flash.a
+[12/19] Linking C static library esp-idf/hal/libhal.a
+[13/19] Linking C static library esp-idf/micro-ecc/libmicro-ecc.a
+[14/19] Linking C static library esp-idf/soc/libsoc.a
+[15/19] Linking C static library esp-idf/xtensa/libxtensa.a
+[16/19] Linking C static library esp-idf/main/libmain.a
+[17/19] Linking C executable bootloader.elf
+[18/19] Generating binary image from built executable
+esptool.py v4.12.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/smashiv/Documentos/Proyectos/C/senavi_project/build/bootloader/bootloader.bin
+[19/19] cd /home/smashiv/Documentos/Proyectos/C/senavi_project/build/bootloader/esp-idf/esptool_py && /home/smashiv/.espressif/python_env/idf5.4_py3.14_env/bin/python /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/smashiv/Documentos/Proyectos/C/senavi_project/build/bootloader/bootloader.bin
+Bootloader binary size 0x6560 bytes. 0xaa0 bytes (9%) free.
+[102/108] No install step for 'bootloader'
+[103/108] Completed 'bootloader'
+[104/108] Generating ld/sections.ld
+[105/108] Building C object CMakeFiles/senavi_project.elf.dir/project_elf_src_esp32.c.obj
+[106/108] Linking CXX executable senavi_project.elf
+[107/108] Generating binary image from built executable
+esptool.py v4.12.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/smashiv/Documentos/Proyectos/C/senavi_project/build/senavi_project.bin
+[108/108] cd /home/smashiv/Documentos/Proyectos/C/senavi_project/build/esp-idf/esptool_py && /home/smashiv/.espressif/python_env/idf5.4_py3.14_env/bin/python /home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/smashiv/Documentos/Proyectos/C/senavi_project/build/partition_table/partition-table.bin /home/smashiv/Documentos/Proyectos/C/senavi_project/build/senavi_project.bin
+senavi_project.bin binary size 0x2e0a0 bytes. Smallest app partition is 0x100000 bytes. 0xd1f60 bytes (82%) free.

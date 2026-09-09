@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "esp-idf/idf_test",
+		"source" : "/home/smashiv/Documentos/Proyectos/C/senavi/esp/esp-idf/components/idf_test"
+	}
+}
